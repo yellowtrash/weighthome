@@ -1,0 +1,18 @@
+/* Custom styles using shadcn color palette */
+:root {
+    --primary: #6366f1; /* indigo-500 */
+    --primary-hover: #4f46e5; /* indigo-600 */
+}
+
+body {
+    color: #1f2937; /* gray-800 */
+}
+
+button {
+    transition: background-color 0.3s ease;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.5);
+}
